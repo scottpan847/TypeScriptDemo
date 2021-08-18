@@ -1,8 +1,6 @@
 {
   "pages": [
-    "pages/learncss/learncss",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
