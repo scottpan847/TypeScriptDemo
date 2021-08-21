@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 // {{page}}.ts
 Page({
 
@@ -21,6 +25,7 @@ Page({
       enableSatellite: false,
       enableTraffic: false,
     },
+<<<<<<< HEAD
     latitude: 31,//纬度
     longitude: 120,//经度
     scale:10,
@@ -44,6 +49,47 @@ Page({
   onLoad() {
 
   },
+=======
+    location:{
+      latitude:31,
+      longitude:120
+    },
+    scale:10,
+    is3D :true,
+    isOverLooking:true,
+    markers:[
+      {
+        iconPath:"../../resources/car.jpg",
+        id:1,
+        latitude:24.619600,
+        longitude:118.247890,
+        width:50,
+        height: 50
+      },
+    ]
+  },
+  onMyLocationTap(){
+    wx.getLocation({
+      type:'gcj02',
+      success:res=>{
+        this.setData(
+          {
+            location:{
+              latitude:res.latitude,
+              longitude:res.longitude,
+            },
+          }
+        )
+      }
+    })
+  },
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad() {
+
+  },
+>>>>>>> main
 
   /**
    * 生命周期函数--监听页面初次渲染完成

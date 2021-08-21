@@ -5,17 +5,17 @@
   },
   "miniprogramRoot": "miniprogram/",
   "compileType": "miniprogram",
-  "libVersion": "2.18.1",
-  "projectname": "TypeScriptLearn",
+  "libVersion": "2.19.1",
+  "projectname": "miniDemo",
   "scripts": {
     "beforeCompile": "npm run tsc",
     "beforePreview": "npm run tsc",
     "beforeUpload": "npm run tsc"
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
-    "enhance": false,
+    "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
@@ -30,22 +30,25 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
+    "enableEngineNative": false,
     "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "useApiHostProcess": true
+    "minifyWXSS": true,
+    "showES6CompileOption": false
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "appid": "wx4918db66b3775696",
+  "appid": "wx1f2f190e104c1f45",
   "condition": {}
 }
