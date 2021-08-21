@@ -1,13 +1,16 @@
 {
   "pages": [
-    "pages/learncss/learncss",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/index/index"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "租车demo",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
