@@ -1,0 +1,38 @@
+/* {{page}}.wxss */
+.lic-tmpl{
+  width: 600rpx;
+  height: 450rpx;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stretch{
+  width: 100%;
+  height: 100%;
+}
+.lic-tmpl-img{
+  opacity: 0.4;
+  position: absolute;
+  
+}
+.rightUp{
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: -50%;
+  margin-left: 75%;
+}
+.instruction{
+  position: absolute;
+  bottom: -70rpx;
+}
+.cuIcon-camerafill{
+  font-size: 172rpx;
+}
+.cu-form-group .title{
+  min-width: calc(4em + 30rpx);
+}
+.lic-form {
+  width: 600rpx;
+}
